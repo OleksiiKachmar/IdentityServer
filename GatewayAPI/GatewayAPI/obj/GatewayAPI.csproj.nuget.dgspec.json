@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj": {}
+    "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj": {}
   },
   "projects": {
-    "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj": {
+    "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj",
+        "projectUniqueName": "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj",
         "projectName": "GatewayAPI",
-        "projectPath": "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj",
+        "projectPath": "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI.csproj",
         "packagesPath": "C:\\Users\\rkarpinskyy\\.nuget\\packages\\",
-        "outputPath": "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\GatewayAPI\\obj\\",
+        "outputPath": "C:\\Source\\IdentityServerPOC\\GatewayAPI\\GatewayAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
