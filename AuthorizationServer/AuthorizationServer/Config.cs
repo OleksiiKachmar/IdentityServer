@@ -3,6 +3,7 @@
 
 
 using IdentityServer4.Models;
+using IdentityServer4.Test;
 using System.Collections.Generic;
 
 namespace AuthorizationServer
@@ -25,6 +26,19 @@ namespace AuthorizationServer
         public static IEnumerable<Client> GetClients()
         {
             return new Client[] { };
+        }
+
+        public static IEnumerable<TestUser> GetUsers()
+        {
+            return new List<TestUser>
+            {
+                new TestUser
+                {
+                    SubjectId = "1",
+                    Username = "john",
+                    Password = "john's password"
+                }
+            };
         }
     }
 }

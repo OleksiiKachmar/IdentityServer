@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GatewayAPI.Configuration;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +29,22 @@ namespace GatewayAPI
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.Configure<IdentityServerConfig>(Configuration.GetSection("IdentityServer"));
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.Authority = "http://localhost:5000";
+                    options.RequireHttpsMetadata = false;
+
+                    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                    {
+                        ClockSkew = TimeSpan.FromMinutes(5),
+                        RequireSignedTokens = true,
+                        RequireExpirationTime = true,
+                        ValidateLifetime = true,
+                        ValidateIssuer = true,
+                        ValidIssuer = "http://localhost:5000/api/auth"
+                    };
+                });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,6 +61,7 @@ namespace GatewayAPI
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseAuthentication();
         }
     }
 }
