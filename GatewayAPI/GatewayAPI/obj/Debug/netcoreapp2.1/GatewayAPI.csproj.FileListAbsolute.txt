@@ -12,3 +12,17 @@ C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\GatewayAPI\obj\Debug\netcoreap
 C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\GatewayAPI\bin\Debug\netcoreapp2.1\GatewayAPI.pdb
 C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.dll
 C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.pdb
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\bin\Debug\netcoreapp2.1\GatewayAPI.deps.json
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\bin\Debug\netcoreapp2.1\GatewayAPI.runtimeconfig.json
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\bin\Debug\netcoreapp2.1\GatewayAPI.runtimeconfig.dev.json
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\bin\Debug\netcoreapp2.1\GatewayAPI.dll
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\bin\Debug\netcoreapp2.1\GatewayAPI.pdb
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.csprojAssemblyReference.cache
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.csproj.CoreCompileInputs.cache
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.RazorAssemblyInfo.cache
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.RazorAssemblyInfo.cs
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.AssemblyInfoInputs.cache
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.AssemblyInfo.cs
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.RazorTargetAssemblyInfo.cache
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.dll
+C:\Source\IdentityServerPOC\GatewayAPI\GatewayAPI\obj\Debug\netcoreapp2.1\GatewayAPI.pdb

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using GatewayAPI.Configuration;
 using Microsoft.AspNetCore.Http;
@@ -21,9 +23,12 @@ namespace GatewayAPI.Controllers
         }
 
         [HttpPost("{token}")]
-        public IActionResult Authenticate()
+        public async Task<IActionResult> Authenticate(string userCredentials)
         {
-            return StatusCode(200);
+            HttpClient client = new HttpClient();
+            var result = await client.PostAsync(_identityServerConfig.Value.Url, new StringContent(userCredentials, Encoding.UTF8, "application/json"));
+
+            return new JsonResult(result.Content);
         }
     }
 }
