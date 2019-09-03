@@ -30,5 +30,17 @@ namespace GatewayAPI.Controllers
 
             return new JsonResult(result.Content);
         }
+
+        [HttpGet("json")]
+        public async Task<IActionResult> GetJson()
+        {
+            return new JsonResult(new { SomeProperty = "Some value" });
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetJsonGet()
+        {
+            return new JsonResult(new { SomeProperty = "Some value get" });
+        }
     }
 }
