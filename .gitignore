@@ -338,3 +338,10 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+*.pdb
+*.dll
+*.txt
+*.cache
+*.ide
+GatewayAPI/.vs/GatewayAPI/v16/.suo
+GatewayAPI/.vs/GatewayAPI/DesignTimeBuild/.dtbcache

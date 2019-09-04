@@ -20,12 +20,27 @@ namespace AuthorizationServer
 
         public static IEnumerable<ApiResource> GetApis()
         {
-            return new ApiResource[] { };
+            return new ApiResource[]
+            {
+                new ApiResource("api1", "My Api")
+            };
         }
 
         public static IEnumerable<Client> GetClients()
         {
-            return new Client[] { };
+            return new Client[] 
+            {
+                new Client
+                {
+                    ClientId = "118money",
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    ClientSecrets =
+                    {
+                        new Secret("118118money.com".Sha256())
+                    },
+                    AllowedScopes = {"api1"}
+                }
+            };
         }
 
         public static IEnumerable<TestUser> GetUsers()
